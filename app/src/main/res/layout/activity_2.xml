@@ -43,4 +43,95 @@
         android:text="---------And actually they have much more than that!"
         android:textStyle="bold|italic" />
 
+    <Button
+        android:id="@+id/yue"
+        android:layout_width="115dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="206dp"
+        android:background="@color/colorAccent"
+        android:lineSpacingExtra="24sp"
+        android:text="粤"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/zhe"
+        android:layout_width="115dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="207dp"
+        android:layout_toEndOf="@+id/yue"
+        android:background="@color/colorAccent"
+        android:lineSpacingExtra="24sp"
+        android:text="浙"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/chuan"
+        android:layout_width="115dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/zhe"
+        android:layout_toRightOf="@+id/zhe"
+        android:background="@color/colorAccent"
+        android:lineSpacingExtra="24sp"
+        android:text="川"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/xiang"
+        android:layout_width="115dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/yue"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="47dp"
+        android:background="@color/colorAccent"
+        android:lineSpacingExtra="24sp"
+        android:text="湘"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/lu"
+        android:layout_width="115dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/zhe"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="46dp"
+        android:layout_toEndOf="@+id/xiang"
+        android:layout_toRightOf="@+id/xiang"
+        android:background="@color/colorAccent"
+        android:lineSpacingExtra="24sp"
+        android:text="鲁"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/su"
+        android:layout_width="115dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/chuan"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/lu"
+        android:layout_toRightOf="@+id/lu"
+        android:background="@color/colorAccent"
+        android:lineSpacingExtra="24sp"
+        android:text="苏"
+        android:textSize="50sp" />
+
 </RelativeLayout>
