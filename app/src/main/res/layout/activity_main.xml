@@ -50,6 +50,7 @@
         android:layout_marginBottom="156dp"
         android:text="Ingerdient"
         android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
         android:textSize="20sp" />
 
     <Button
@@ -64,6 +65,7 @@
         android:layout_marginBottom="42dp"
         android:text="Taste"
         android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
         android:textSize="20sp" />
 
 </RelativeLayout>

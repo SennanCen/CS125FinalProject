@@ -8,11 +8,76 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="274dp"
+        android:layout_height="44dp"
         android:text="This is Taste Page"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="384dp"
+        android:layout_height="123dp"
+        android:text="Taste sparks the food to let the people remember it."
+        android:textColor="@color/colorAccent"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="235dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <Button
+        android:id="@+id/sour"
+        android:layout_width="122dp"
+        android:layout_height="92dp"
+        android:text="Sour"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/umami"
+        android:layout_width="122dp"
+        android:layout_height="92dp"
+        android:text="umami"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/sweet"
+        android:layout_width="122dp"
+        android:layout_height="92dp"
+        android:text="sweet"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/bitter"
+        android:layout_width="122dp"
+        android:layout_height="92dp"
+        android:text="bitter"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/hot"
+        android:layout_width="122dp"
+        android:layout_height="92dp"
+        android:text="hot"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/salty"
+        android:layout_width="122dp"
+        android:layout_height="92dp"
+        android:text="salty"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="350dp" />
+
 </android.support.constraint.ConstraintLayout>
